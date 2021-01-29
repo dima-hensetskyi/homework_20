@@ -1,0 +1,94 @@
+.container {
+  color: white;
+  padding: 30px;
+  display: flex;
+}
+.posts {
+  display: flex;
+  flex-direction: column-reverse;
+}
+.row2 {
+  padding-left: 30px;
+  padding-top: 15px;
+}
+#card {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  width: 600px;
+}
+.card-header {
+  display: flex;
+}
+#nickname-form {
+  margin-left: 120px;
+  width: 300px;
+}
+
+#card-select {
+  width: 150px;
+}
+#card-btn {
+  margin-left: 260px;
+  margin-top: 20px;
+  width: 100px;
+}
+.post {
+  padding: 5px;
+  margin-top: 10px;
+  background-color: #333376;
+  border: thin #808080bb solid;
+  width: 700px;
+  height: 460px;
+  font-size: 140%;
+  padding-bottom: 40px;
+  border-radius: 20px;
+}
+.author {
+  display: flex;
+  height: 15%;
+  align-items: flex-start;
+}
+.author img {
+  border-radius: 100px;
+  max-height: 100px;
+  max-width: 100px;
+  margin-left: 10px;
+  margin-right: 20px;
+}
+.author p {
+  margin: 10px 0 0 20px;
+}
+.name {
+  font-weight: bold;
+}
+.autor-information {
+  color: #ffffffa1;
+}
+.content {
+  display: flex;
+  flex-direction: column;
+  margin-top: 0px;
+  margin-left: 100px;
+  text-align: left;
+}
+.content-text {
+  margin-top: -10px;
+  margin-bottom: 20px;
+  margin-left: 20px;
+}
+.content img {
+  width: 600px;
+  height: 350px;
+  margin-left: -30px;
+  margin-right: 20px;
+  border-radius: 30px;
+}
+.badges {
+  display: flex;
+  justify-content: space-around;
+  width: 500px;
+  margin-top: 10px;
+  margin-left: 100px;
+  color: #ffffffa1;
+}
